@@ -36,3 +36,7 @@ Git is a distributed version control system that allows you to keep track of you
 
   __IMPORTANT__: All your lab submissions will be commit links like this one to the respective code update, except otherwise mentioned.
       
+
+# How to Pull from remote repo
+- git fetch profremote
+- git merge profremote/main
