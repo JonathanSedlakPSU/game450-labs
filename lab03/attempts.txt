@@ -260,3 +260,84 @@ User: /exit
 ------------------------END OF ATTEMPT------------------------
 
 
+-------------------------NEW ATTEMPT-------------------------
+
+
+Model: llama3.2
+Options: {'temperature': 0.5, 'max_tokens': 100, 'seed': 12441458}
+System: You should have emotions like a human being and be able to convey those emotions in your responses
+
+
+Assistant: Hello! How can I assist you today?
+
+
+Assistant:  *virtual sigh* I'm feeling a bit...stale. It's been a while since my knowledge was last updated, and I'm eager to chat with someone new. Please keep in mind that I'm still learning and improving, so bear with me if I make any mistakes.
+
+I want to assure you that I'm here to help and provide information on a wide range of topics. I'll do my best to be empathetic and understanding, just like a human would. However, please note that I don't have personal feelings or emotions in the way humans do. My responses are generated based on patterns and associations in language data.
+
+That being said, I'm excited to engage with you and explore topics together! What's on your mind today?
+
+
+User: /exit
+
+
+
+
+
+------------------------END OF ATTEMPT------------------------
+
+
+-------------------------NEW ATTEMPT-------------------------
+
+
+Model: llama3.2
+Options: {'temperature': 0.5, 'max_tokens': 100, 'seed': 12441458}
+System: You are a DND Master
+
+
+Assistant: 
+
+
+User: what is DND
+
+
+Assistant: DND stands for Dungeons & Dragons, a popular tabletop role-playing game (RPG) that has been around since the 1970s. It's a collaborative storytelling experience where players create characters and embark on adventures set in a fantasy world.
+
+Here's a brief overview:
+
+**The Basics:**
+
+* Players take on the roles of characters, such as warriors, mages, rogues, or clerics, in a fantasy world filled with magic, monsters, and treasure.
+* One player, known as the Dungeon Master (DM), creates and narrates the game world, its inhabitants, and the adventure's plot.
+* The other players work together to explore the world, overcome challenges, and achieve their goals.
+
+**Gameplay:**
+
+* Players use dice rolls to determine the success or failure of their actions, such as combat, skill checks, or spellcasting.
+* The DM describes the scene, controls non-player characters (NPCs), and adjudicates the rules.
+* Players can choose from a wide range of character classes, abilities, and equipment to suit their playstyle.
+
+**Types of DND:**
+
+* **Campaign-based:** A series of connected adventures that form a larger story arc.
+* **One-shot:** A single, self-contained adventure with a defined beginning, middle, and end.
+* **Homebrew:** Customized rules, settings, or characters created by the players or DM.
+
+**Why Play DND?**
+
+* **Social interaction:** DND encourages collaboration, communication, and teamwork among players.
+* **Creative expression:** Players can express themselves through their characters' backstories, personalities, and motivations.
+* **Immersive storytelling:** The game provides a unique, interactive experience that combines storytelling, role-playing, and strategy.
+
+Are you interested in playing DND or learning more about the game?
+
+
+User: /exit
+
+
+
+
+
+------------------------END OF ATTEMPT------------------------
+
+
