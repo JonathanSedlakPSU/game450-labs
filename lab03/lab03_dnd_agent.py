@@ -9,19 +9,37 @@ from util.llm_utils import pretty_stringify_chat, ollama_seed as seed
 sign_your_name = 'Jonathan Sedlak'
 model = 'llama3.2'
 messages = [
-  {'role': 'user', 'content': input('You: ')},
+  {'role': 'system', 'content': 'You should have emotions like a human being and be able to convey those emotions in your responses'},
 ]
+# Temperature: Low = Accurate || High = Creative
 options = {'temperature': 0.5, 'max_tokens': 100}
+
+# Initial message from the agent
+initial_message = {'role': 'assistant', 'content': 'Hello! How can I assist you today?'}
+messages.append(initial_message)
+first_iteration = True
 
 # But before here.
 
 options |= {'seed': seed(sign_your_name)}
+
 # Chat loop
 while True:
   response = chat(model=model, messages=messages, stream=False, options=options)
   # Add your code below
+  #-----------------------------------------------------------
+  if first_iteration:
+    print(f'Agent: {initial_message["content"]}')
+    first_iteration = False
+  else:
+    print(f'Agent: {response.message.content}')
+    messages.append({'role': 'assistant', 'content': response.message.content})
 
+  # Prompt for user input
+  message = {'role': 'user', 'content': input('You: ')}
+  messages.append(message)
 
+  #-----------------------------------------------------------
   # But before here.
   if messages[-1]['content'] == '/exit':
     break
